@@ -1,0 +1,22 @@
+li{
+  list-style: none;
+  color: white;
+}
+i{
+  color: white;
+  font-size: 50px;
+}
+nav{
+  background-color: black;
+}
+.main{
+  display: flex;
+  justify-content: space-around;
+}
+.title{
+  font-size: 2rem;
+}
+.sub{
+  display: flex;
+  align-items: center;
+}

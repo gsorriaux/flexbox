@@ -1,0 +1,25 @@
+header{
+  height: 100px;
+  background-color: #86cbfd;
+}
+main, nav, .advertise, .content{
+  height: 300px;
+  border: solid 5px black;
+  display: flex;
+}
+nav, .advertise{
+  background-color: #cb9acb;
+  flex-grow: 1;
+}
+.content{
+  background-color: #fecccd;
+  flex-grow: 3;
+  display :flex;
+  flex-direction: column;
+  align-items: center;
+}
+nav{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
