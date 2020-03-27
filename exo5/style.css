@@ -1,25 +1,53 @@
-header{
+header, footer{
   height: 100px;
   background-color: #86cbfd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: solid 5px black;
+  border-left: solid 5px black;
+  border-right: solid 5px black
+}
+footer{
+  border-top: 0;
+  border-bottom: solid 5px black;
+}
+h1{
+  margin-top: 0;
+}
+main{
+  border: solid 5px black;
+}
+nav{
+  border-right: solid 5px black;
 }
 main, nav, .advertise, .content{
   height: 300px;
-  border: solid 5px black;
   display: flex;
 }
 nav, .advertise{
   background-color: #cb9acb;
-  flex-grow: 1;
+  flex-basis: 10%;
 }
 .content{
   background-color: #fecccd;
-  flex-grow: 3;
+  flex-basis: 80%;
   display :flex;
   flex-direction: column;
   align-items: center;
 }
-nav{
+nav, .advertise{
   display: flex;
   flex-direction: column;
+}
+ul{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 0;
+}
+.advertise{
   align-items: center;
+  border-left: solid 5px black;
 }

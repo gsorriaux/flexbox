@@ -1,0 +1,26 @@
+main{
+  display: flex;
+}
+div, main{
+  border: solid 5px black;
+}
+.green{
+  background-color: #76d4b5;
+}
+.left, .right{
+  height: 300px;
+  flex-basis: 50%;
+}
+.right{
+  display: flex;
+  flex-direction: column;
+}
+.head, .content, .footer{
+  flex-basis: 33%;
+}
+.content{
+  display: flex;
+}
+.content1, .content2{
+  flex-basis: 50%;
+}
